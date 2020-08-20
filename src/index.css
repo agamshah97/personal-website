@@ -58,9 +58,22 @@ code {
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
  .flip-card {
   background-color: transparent;
-  width: 450px;
   height: 350px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+@media screen {
+  .flip-card {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .flip-card {
+    width: 100%; 
+    margin: auto;
+    height: 400px; 
+  }
 }
 
 /* This container is needed to position the front and back side */

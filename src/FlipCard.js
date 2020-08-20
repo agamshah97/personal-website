@@ -2,7 +2,7 @@ import React from "react"
 
 function FlipCard(props) {
     return (
-        <div className="flip-card" style={{margin:"10px"}}>
+        <div className="flip-card" style={{display:"flex", margin:"10px"}}>
             <div className="flip-card-inner">
                 <div className="flip-card-front">
                     <img height="200px" style={{margin:"10px"}} src={props.image} alt="About" />

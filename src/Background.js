@@ -15,7 +15,7 @@ function Background() {
             
             <div style={{display:"flex", flexDirection:"column"}}>
                 <h4 style={{margin:"20px"}}>Educational Background</h4>
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>
                     <FlipCard 
                         image={vjtiPhoto}
                         title="Veermata Jijabai Technological Institute"
@@ -42,7 +42,7 @@ function Background() {
                     />
                 </div>
                 <h4 style={{margin:"20px"}}>Work Experience</h4>
-                <div style={{display:"flex"}}>
+                <div style={{display:"flex", flexWrap:"wrap", justifyContent:"center"}}>
                     <FlipCard 
                         image={samsungPhoto}
                         title="Samsung R&D Institute"
