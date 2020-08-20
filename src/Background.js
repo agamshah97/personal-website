@@ -23,9 +23,9 @@ function Background() {
                         contentTopRight="2015 - 2019"
                         contentBottomLeft="Computer Engineering"
                         contentBottomRight="9.29/10"
-                        backLine1="Ranked in the Top 5 of my class"
+                        backLine1="Ranked in the Top 5 of my class."
                         backLine2={"Some of the courses as part of my undergrad were - " + 
-                        "Artificial Intelligence, Machine Learning, Data Mining and Warehousing, Internet of Things, Big Data Analytics, Human Computer Interaction"}
+                        "Artificial Intelligence, Machine Learning, Data Mining and Warehousing, Internet of Things, Big Data Analytics, Human Computer Interaction."}
                     />
                     <FlipCard 
                         image={uscPhoto}
@@ -37,7 +37,7 @@ function Background() {
                         backLine1="Among the distinguished few to be selected for MS Honors Program."
                         backLine2="Serving as a Course Producer for CSCI 561."
                         backLine3={"Courses taken as a part of my graduate studies - " + 
-                        "Foundations of Artificial Intelligence (CSCI 561), Analysis of Algorithms (CSCI 570), Web Technologies (CSCI 571), Foundations and Applications of Data Mining (INF 553)"
+                        "Foundations of Artificial Intelligence (CSCI 561), Analysis of Algorithms (CSCI 570), Web Technologies (CSCI 571), Foundations and Applications of Data Mining (INF 553)."
                         }
                     />
                 </div>

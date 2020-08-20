@@ -11,14 +11,14 @@ function FlipCard(props) {
                         <div style={{color:"#999999", marginTop:"10px"}}>
                             <div style={{display:"flex", flexDirection:"column"}}>
                                 <div style={{display:"flex", justifyContent:"space-between"}}>
-                                    <span>{props.contentTopLeft}</span>
-                                    <span>{props.contentTopRight}</span>
+                                    <span style={{marginRight:"10px"}}>{props.contentTopLeft}</span>
+                                    <span style={{marginRight:"10px"}}>{props.contentTopRight}</span>
                                 </div>
                             </div>
                             <div style={{display:"flex", flexDirection:"column"}}>
                                 <div style={{display:"flex", justifyContent:"space-between"}}>
-                                    <span>{props.contentBottomLeft}</span>
-                                    <span>{props.contentBottomRight}</span>
+                                    <span style={{marginRight:"10px"}}>{props.contentBottomLeft}</span>
+                                    <span style={{marginRight:"10px"}}>{props.contentBottomRight}</span>
                                 </div>
                             </div>
                         </div>

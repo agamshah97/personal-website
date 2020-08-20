@@ -15,7 +15,7 @@ function About() {
             <div style={{display:"flex", flexDirection:"column"}}>
                 <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
                 <p>I like to travel and visit new places. </p>
-                <div style={{display:"flex", justifyContent:"space-evenly", width:"500px"}}>
+                <div style={{display:"flex", justifyContent:"space-evenly", maxWidth:"500px"}}>
                 <Carousel interval="3000">
                     <Carousel.Item>
                         <img
@@ -63,7 +63,7 @@ function About() {
                 <hr/>
                 </div>
                 <div style={{marginTop:"20px", marginBottom:"20px", display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center"}}>
-                <p >I like to volunteer teaching and giving back to the society.</p>
+                <p >I like to teach, volunteer and give back to the society.</p>
                 <DisplayCard
                     title="Teach for India"
                     content="I completed 60 hours of volunteer work, teaching kids of grade 6 subjects like Math, Geography and English."
