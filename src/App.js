@@ -16,10 +16,10 @@ function App() {
         <div className="display-box">
           <NavBar />
           <Switch>
-            <Route path="/introduction" component={Introduction}></Route>
-            <Route path="/background" component={Background}></Route> 
-            <Route path="/projects" component={Projects}></Route> 
-            <Route path="/about" component={About}></Route>
+            <Route path="/introduction" render={() => {window.scrollTo(0,0); return <Introduction />}}></Route>
+            <Route path="/background" render={() => {window.scrollTo(0,0); return <Background />}}></Route> 
+            <Route path="/projects" render={() => {window.scrollTo(0,0); return <Projects />}}></Route> 
+            <Route path="/about" render={() => {window.scrollTo(0,0); return <About />}}></Route>
             <Route path="/">
               <Redirect to="/introduction" />
             </Route>     
