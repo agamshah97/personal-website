@@ -4,6 +4,7 @@ import lakeMeadPhoto from "./images/Photos/LakeMead.jpg"
 import MalibuPhoto from "./images/Photos/Malibu.jpg"
 import GrandCanyonPhoto from "./images/Photos/GrandCanyon1.jpg"
 import MtBaldyPhoto from "./images/Photos/MtBaldy.jpg"
+import SanDiegoPhoto from "./images/Photos/SanDiegoLaJolla.jpg"
 import TFIPhoto from "./images/Photos/TeachForIndia.jpg"
 import DisplayCard from "./DisplayCard"
 
@@ -53,9 +54,18 @@ function About() {
                         src={MtBaldyPhoto}
                         alt="Mt. Baldy, California"
                         />
-
                         <Carousel.Caption>
                         <h3>Mt. Baldy, California</h3>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100 h-100"
+                        src={SanDiegoPhoto}
+                        alt="La Jolla, San Diego, California"
+                        />
+                        <Carousel.Caption>
+                        <h3>La Jolla, San Diego</h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
