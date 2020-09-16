@@ -121,3 +121,9 @@ code {
 .no-css-link:hover {
   color: black;
 }
+
+.carousel-img {
+  max-width: 500px;
+  max-height: 500px;
+  object-fit: scale-down;
+}

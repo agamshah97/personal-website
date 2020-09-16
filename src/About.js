@@ -20,7 +20,7 @@ function About() {
                 <Carousel interval={3000}>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 h-100"
+                        className="carousel-img d-block w-100 h-100"
                         src={lakeMeadPhoto}
                         alt="Lake Mead, Nevada"
                         />
@@ -30,7 +30,7 @@ function About() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 h-100"
+                        className="carousel-img d-block w-100 h-100"
                         src={GrandCanyonPhoto}
                         alt="Grand Canyon, Arizona"
                         />
@@ -40,7 +40,7 @@ function About() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 h-100"
+                        className="carousel-img d-block w-100 h-100"
                         src={MalibuPhoto}
                         alt="Malibu, California"
                         />
@@ -50,7 +50,7 @@ function About() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 h-100"
+                        className="carousel-img d-block w-100 h-100"
                         src={MtBaldyPhoto}
                         alt="Mt. Baldy, California"
                         />
@@ -60,7 +60,7 @@ function About() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 h-100"
+                        className="carousel-img d-block w-100 h-100"
                         src={SanDiegoPhoto}
                         alt="La Jolla, San Diego, California"
                         />
