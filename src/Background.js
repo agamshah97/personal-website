@@ -34,7 +34,7 @@ function Background() {
                         contentTopRight="2019 - Current"
                         contentBottomLeft="Computer Science"
                         contentBottomRight="4.0/4.0"
-                        backLine1="Among the distinguished few to be selected for MS Honors Program."
+                        backLine1="On track to graduate with MS Honors."
                         backLine2="Serving as a Course Producer for CSCI 561."
                         backLine3={"Courses taken as a part of my graduate studies - " + 
                         "Foundations of Artificial Intelligence (CSCI 561), Analysis of Algorithms (CSCI 570), Web Technologies (CSCI 571), Foundations and Applications of Data Mining (INF 553)."
