@@ -35,9 +35,9 @@ function Background() {
                         contentBottomLeft="Computer Science"
                         contentBottomRight="4.0/4.0"
                         backLine1="On track to graduate with MS Honors."
-                        backLine2="Serving as a Course Producer for CSCI 561."
+                        backLine2="Currently serving as a Teaching Assistant for DSCI 553 and CSCI 572."
                         backLine3={"Courses taken as a part of my graduate studies - " + 
-                        "Foundations of Artificial Intelligence (CSCI 561), Analysis of Algorithms (CSCI 570), Web Technologies (CSCI 571), Foundations and Applications of Data Mining (INF 553)."
+                        "Foundations of Artificial Intelligence (CSCI 561), Analysis of Algorithms (CSCI 570), Web Technologies (CSCI 571), Foundations and Applications of Data Mining (INF 553), Information Retrieval (CSCI 572) and Operating Systems (CSCI 402)."
                         }
                     />
                 </div>
@@ -57,7 +57,7 @@ function Background() {
                         title="Amazon.com"
                         contentTopLeft="SDE Intern"
                         contentTopRight="May 2020 - August 2020"
-                        contentBottomLeft="FC Inventory Team - Amazon Fulfillment Technologies"
+                        contentBottomLeft="FC Inventory - Amazon Fulfillment Technologies"
                         backLine1="Developed an Onboarding Tool to facilitate the team's operations."
                         backLine2="Reduced the time to onboard customers to the team's services by approx. 5 days, eliminated the margin of error in the onboarding process and automated several otherwise manual steps in the onboarding process."
                     />
